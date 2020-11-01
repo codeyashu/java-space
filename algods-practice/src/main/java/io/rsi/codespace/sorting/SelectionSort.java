@@ -1,7 +1,5 @@
 package io.rsi.codespace.sorting;
 
-import com.sun.xml.internal.bind.v2.TODO;
-
 import static io.rsi.codespace.util.DsAlogoUtil.printArray;
 import static io.rsi.codespace.util.DsAlogoUtil.swap;
 
