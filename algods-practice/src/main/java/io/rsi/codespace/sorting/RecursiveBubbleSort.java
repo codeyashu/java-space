@@ -8,16 +8,13 @@ public class RecursiveBubbleSort {
         if (n == 1)
             return;
 
-        int count = 0;
         boolean isSwapped = false;
         for (int i = 0; i < n - 1; i++) {
-            ++count;
             if (arr[i] > arr[i + 1]) {
                 swap(arr, i, i + 1);
                 isSwapped = true;
             }
         }
-        System.out.println(++count);
         if (isSwapped) bubbleSort(arr, n - 1);
     }
 
